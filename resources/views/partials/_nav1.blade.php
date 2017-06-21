@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
 
           </button>
-        <a class="navbar-brand" href="#" color="white">Students Project</a></b>
+        <a class="navbar-brand" href="home" color="white">Students Project</a></b>
         </div>
 
         <div class="collapse navbar-collapse">
