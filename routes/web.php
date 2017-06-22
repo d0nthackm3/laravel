@@ -11,6 +11,8 @@
 |
 */
 
+
+
 Route::get('teachers','PagesController@getTeachers');
 
 Route::get('remove','PagesController@getRemove');
@@ -24,5 +26,6 @@ Auth::routes();
 
 Route::get('logout', 'PagesController@getLogout');
 
-
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('posts', 'vulin');

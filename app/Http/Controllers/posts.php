@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\postController;
 use Illuminate\Http\Request;
 
-class PostControllerController extends Controller
+class posts extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -22,7 +21,7 @@ class PostControllerController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create() // Create laat een view zien met een forum
+    public function create()
     {
         //
     }
@@ -33,7 +32,7 @@ class PostControllerController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request) //Post request
+    public function store(Request $request)
     {
         //
     }
@@ -41,10 +40,10 @@ class PostControllerController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\postController  $postController
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(postController $postController)
+    public function show($id)
     {
         //
     }
@@ -52,10 +51,10 @@ class PostControllerController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\postController  $postController
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(postController $postController)
+    public function edit($id)
     {
         //
     }
@@ -64,10 +63,10 @@ class PostControllerController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\postController  $postController
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, postController $postController) //patch request
+    public function update(Request $request, $id)
     {
         //
     }
@@ -75,10 +74,10 @@ class PostControllerController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\postController  $postController
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(postController $postController) 
+    public function destroy($id)
     {
         //
     }

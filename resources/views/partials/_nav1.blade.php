@@ -17,6 +17,7 @@
             <li><a href="add">Add student</a></li>
             <li><a href="remove">Remove student</a></li>
             <li><a href="teachers">Teachers</a></li>
+            <li><a href="posts">Posts</a></li>
            <li><a href="logout">Logout</a></li>
           </ul>
         </div><!--/.nav-collapse -->
