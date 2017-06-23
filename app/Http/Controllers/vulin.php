@@ -23,7 +23,7 @@ class vulin extends Controller
      */
     public function create()
     {
-        return view('posts');
+        return view('posts.create');
     }
 
     /**
